@@ -1,0 +1,125 @@
+/* 
+Theme Name: GeekWork 
+Description: Child theme for Jobify
+Author: Astoundify 
+Template: jobify
+Version: 1.0
+*/
+
+body {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+li.type-job_listing .logo,
+li.type-resume .logo {
+    max-width: 120px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.jobify_widget_jobs li.type-job_listing .logo,
+.jobify_widget_jobs li.type-resume .logo {
+    display: block;
+}
+
+@media (min-width:768px) {
+    li.type-job_listing .logo,
+    li.type-resume .logo {
+        max-width: 100%;
+    }
+}
+
+#footer-gw-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-job-spotlight-feature-image {
+	padding: 4% 4% 0 4%;
+}
+
+
+.site-header {
+	padding: 0;
+    box-shadow: none;
+}
+
+.site-header .container {
+    padding: 10px;
+}
+
+.page-title {
+    margin:  15px 0;
+}
+
+.page-subtitle {
+	margin: 0 0 15px;
+}
+
+.homepage-widget {
+	margin: 30px 0;
+}
+
+.nav-menu-primary ul,
+.nav-menu-primary {
+	font-size: 13px;
+}
+
+.nav-menu-primary ul li,
+.nav-menu-primary li {
+	margin-left: 0px;
+}
+
+.page-header {
+	padding: 10px 30px;
+}
+
+.entry-content {
+	margin: 30px auto 0;
+}
+
+.pricing-table-widget-description {
+	padding: 20px;
+}
+
+.pricing-table-widget-description li,
+.pricing-table-widget-description p {
+	line-height: 1.5;
+	font-size:14px;
+}
+
+.pricing-table-widget-description ul{
+    list-style-type:disc;
+    margin:20px;
+    text-align:left;
+}
+
+.pricing-table-widget-description ul li{
+    font-size:13px;
+    padding:5px;
+    line-height:1.5;
+}
+
+.pricing-table-widget-description p {
+	margin: 14px 0;
+}
+
+#submit-job-form {
+    margin: 30px auto 0;
+}
+
+ul.resumes li.resume {
+    overflow: auto;
+}
+
+.job-meta-top ~ .job-overview-content {
+    margin: 2em 0;
+    padding-top: 1em;
+}
+
+.filter_by_tag {
+    line-height: 2;
+}
